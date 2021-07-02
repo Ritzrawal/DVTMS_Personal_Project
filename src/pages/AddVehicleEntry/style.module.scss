@@ -1,0 +1,31 @@
+@import "../../variables.scss";
+
+.container {
+    background: $color_white;
+
+    .wizard-header-entry {
+      border-right: 1px solid $color_gray;
+    }
+
+    .wizard-header-preview,
+    .wizard-header-entry {
+      padding: 20px 0;
+      text-align: center;
+    }
+
+    .wizard-header-active {
+      color: $color_fiord;
+    }
+
+    .wizard-header-inactive {
+      color: $color_gray;
+    }
+
+    .form-container {
+      padding: 2em;
+    }
+
+    .upload-wrapper {
+      margin: 30px 0;
+    }
+}

@@ -1,0 +1,38 @@
+.ant-modal-content {
+  width: 900px;
+  left: -142px;
+}
+
+.verifiedListModalMainContainer {
+  display: flex;
+  flex-direction: column;
+  justify-content: space-between;
+}
+
+.verifiedListVehicleStatus {
+  margin-bottom: 30px;
+}
+
+.verifiedListModalInnerContainer {
+  display: flex;
+  justify-content: space-around;
+}
+
+.printButtonDiv button {
+  border: 2px solid #1890ff;
+  padding: 5px 10px;
+  color: white;
+  background: #1890ff;
+  border-radius: 4px;
+  margin-right: 10px;
+}
+
+.addVehicleDetailsTitleDiv {
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+}
+
+.addVehicleDetailsTitleDiv span {
+  font-size: 20px;
+}

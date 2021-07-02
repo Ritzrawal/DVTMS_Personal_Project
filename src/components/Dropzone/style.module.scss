@@ -1,0 +1,74 @@
+@import "../../variables.scss";
+
+.dropzone-container {
+  cursor: pointer;
+  border: 2px dashed $color_ghost;
+  background: $color_white;
+  border-radius: 6px;
+  min-height: 150px;
+  padding: 20px;
+  box-shadow: none;
+
+  .dropzone-message {
+    text-align: center;
+    margin: 2rem 0;
+
+    .upload-icon {
+      font-size: 38px;
+    }
+  }
+}
+
+
+.thumbs-container {
+  display: flex;
+  flex-direction: row;
+  flex-wrap: wrap;
+  margin-top: 16px;
+
+  .thumb {
+    display: inline-flex;
+    border-radius: 2px;
+    border: 1px solid #eaeaea;
+    margin-bottom: 8px;
+    margin-right: 8px;
+    width: 100px;
+    height: 100px;
+    padding: 4px;
+    box-sizing: border-box;
+  };
+
+  .thumb-inner {
+    display: flex;
+    min-width: 0;
+    overflow: hidden;
+
+    img  {
+      display: block;
+      width: auto;
+      height: 100%;
+    };
+  };
+
+  .img-loading {
+    margin: auto;
+    padding: 0 30px;
+  }
+
+  .img-delete {
+    position: absolute;
+    z-index: 999;
+    color: #ff9191;
+    font-size: 22px;
+    cursor: pointer;
+  }
+
+};
+
+.customize-mask {
+  font-size: 20px;
+  opacity: 1;
+}
+.customize-mask .anticon {
+  font-size: 32px;
+}

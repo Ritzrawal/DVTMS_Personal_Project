@@ -1,0 +1,52 @@
+.namsari-container{
+    display: flex;
+    width: 100%;
+   height: 100%;
+    align-items: center;
+}
+.form-customize{
+    width: 100%;
+    display: flex;
+    flex-direction: column;
+    // align-items: flex-start;
+}
+.form-customize .ant-form-item-label {
+text-align: left;
+}
+.subtitle-namsari{
+    color: 'red';
+    font-size: 18px;
+}
+.form-title{
+    font-size: 18px;
+}
+.namsari-left-container{
+ display: flex;
+ width: 50%;
+//  background-color: red;
+ flex-direction: column;
+
+}
+.namsari-right-container{
+    display: flex;
+    align-items: flex-end;
+    flex-direction: column;
+    // align-items: center;
+    width: 100%;
+    justify-content: end;
+}
+.right-inner-container{
+ width: 50%;
+}
+.form-items .ant-form-item-label{
+text-align: left!important;
+}
+.input-number{
+    width: 100%;
+}
+.bottom-container{
+    display: flex;
+    flex-direction: column;
+    width: 100%;
+}
+

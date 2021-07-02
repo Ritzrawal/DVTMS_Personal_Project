@@ -1,0 +1,14 @@
+.logo {
+    height: 30px;
+    margin: 16px;
+    display: flex;
+    justify-content: center;
+    color: #fff;
+  }
+
+.side-bar{
+  overflow:auto;
+  position: sticky;
+  top: 0;
+  left: 0;
+}

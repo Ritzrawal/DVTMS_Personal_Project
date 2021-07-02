@@ -1,0 +1,24 @@
+@import '../../../variables.scss';
+.editable-cell {
+  position: relative;
+}
+
+.editable-cell-value-wrap {
+  padding: 5px 12px;
+  cursor: pointer;
+}
+
+.editable-row:hover .editable-cell-value-wrap {
+  padding: 4px 11px;
+  border: 1px solid $input_border;
+  border-radius: 4px;
+}
+
+[data-theme='dark'] .editable-row:hover .editable-cell-value-wrap {
+  border: 1px solid $input_border_dark;
+}
+
+.file-upload {
+  display: flex;
+  justify-content: space-around;
+}
